@@ -4,11 +4,6 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        drawer: const Drawer(
-          child: Center(
-            child: Text('Hello World!'),
-          ),
-        ),
         backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: Colors.blue[600],
